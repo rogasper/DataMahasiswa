@@ -28,9 +28,9 @@ public class Mahasiswa {
         int tahun,hari,bulan;
         
         System.out.println("Masukkan Data:");
+        inputData.nextLine();
         System.out.print("  NIM: ");
         nim = inputData.nextLine();
-        inputData.nextLine();
         System.out.print("  Nama: ");
         nama = inputData.nextLine();
         System.out.println("  Tanggal Lahir (dd/mm/yyyy): ");
